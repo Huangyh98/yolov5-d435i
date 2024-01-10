@@ -239,7 +239,7 @@ if __name__ == '__main__':
                     cv2.putText(canvas, str(camera_xyz), (ux+20, uy+10), 0, 1,
                                 [225, 255, 255], thickness=2, lineType=cv2.LINE_AA)#标出坐标
                     camera_xyz_list.append(camera_xyz)
-            #print(camera_xyz_list)
+            # print(camera_xyz_list)
 
             # 添加fps显示
             fps = int(1.0 / (t_end - t_start))
